@@ -1,8 +1,8 @@
 <!-- omit in toc -->
 # MCP Go 🚀
-[![Build](https://github.com/mark3labs/mcp-go/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/mark3labs/mcp-go/actions/workflows/ci.yml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/mark3labs/mcp-go?cache)](https://goreportcard.com/report/github.com/mark3labs/mcp-go)
-[![GoDoc](https://pkg.go.dev/badge/github.com/mark3labs/mcp-go.svg)](https://pkg.go.dev/github.com/mark3labs/mcp-go)
+[![Build](https://github.com/dceluis/mcp-go/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/dceluis/mcp-go/actions/workflows/ci.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/dceluis/mcp-go?cache)](https://goreportcard.com/report/github.com/dceluis/mcp-go)
+[![GoDoc](https://pkg.go.dev/badge/github.com/dceluis/mcp-go.svg)](https://pkg.go.dev/github.com/dceluis/mcp-go)
 
 <div align="center">
 
@@ -17,8 +17,8 @@ import (
     "context"
     "fmt"
 
-    "github.com/mark3labs/mcp-go/mcp"
-    "github.com/mark3labs/mcp-go/server"
+    "github.com/dceluis/mcp-go/mcp"
+    "github.com/dceluis/mcp-go/server"
 )
 
 func main() {
@@ -91,7 +91,7 @@ MCP Go handles all the complex protocol details and server management, so you ca
 ## Installation
 
 ```bash
-go get github.com/mark3labs/mcp-go
+go get github.com/dceluis/mcp-go
 ```
 
 ## Quickstart
@@ -105,8 +105,8 @@ import (
     "context"
     "fmt"
 
-    "github.com/mark3labs/mcp-go/mcp"
-    "github.com/mark3labs/mcp-go/server"
+    "github.com/dceluis/mcp-go/mcp"
+    "github.com/dceluis/mcp-go/server"
 )
 
 func main() {
@@ -519,7 +519,7 @@ Go version >= 1.23
 Create a fork of this repository, then clone it:
 
 ```bash
-git clone https://github.com/mark3labs/mcp-go.git
+git clone https://github.com/dceluis/mcp-go.git
 cd mcp-go
 ```
 
