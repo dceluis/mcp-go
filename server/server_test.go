@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mark3labs/mcp-go/mcp"
+	"github.com/dceluis/mcp-go/mcp"
 	"github.com/stretchr/testify/assert"
 )
 

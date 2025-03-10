@@ -15,7 +15,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/mark3labs/mcp-go/mcp"
+	"github.com/dceluis/mcp-go/mcp"
 )
 
 // SSEMCPClient implements the MCPClient interface using Server-Sent Events (SSE).
