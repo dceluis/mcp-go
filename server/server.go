@@ -10,7 +10,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/mark3labs/mcp-go/mcp"
+	"github.com/dceluis/mcp-go/mcp"
 )
 
 // resourceEntry holds both a resource and its handler

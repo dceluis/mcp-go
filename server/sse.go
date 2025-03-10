@@ -9,7 +9,7 @@ import (
 	"sync"
 
 	"github.com/google/uuid"
-	"github.com/mark3labs/mcp-go/mcp"
+	"github.com/dceluis/mcp-go/mcp"
 )
 
 // sseSession represents an active SSE connection.
@@ -170,9 +170,16 @@ func (s *SSEServer) handleSSE(w http.ResponseWriter, r *http.Request) {
 		}
 	}()
 
+	// Dynamically build base URL from the incoming request.
+	scheme := "http"
+	if r.TLS != nil {
+		scheme = "https"
+	}
+	baseURL := fmt.Sprintf("%s://%s", scheme, r.Host)
+
 	messageEndpoint := fmt.Sprintf(
 		"%s%s?sessionId=%s",
-		s.baseURL,
+		baseURL,
 		s.messageEndpoint,
 		sessionID,
 	)

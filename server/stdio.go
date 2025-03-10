@@ -11,7 +11,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/mark3labs/mcp-go/mcp"
+	"github.com/dceluis/mcp-go/mcp"
 )
 
 // StdioServer wraps a MCPServer and handles stdio communication.
